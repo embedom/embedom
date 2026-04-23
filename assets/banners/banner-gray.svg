@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="110" viewBox="0 0 1600 110" role="img" aria-labelledby="title desc">
+  <title id="title">C/C++ • Embedded • Firmware • Go</title>
+  <desc id="desc">A modern dark gray banner with full-height layered chevrons on the left and subtle loading-like blocks on the right.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0d0f12"/>
+      <stop offset="42%" stop-color="#202329"/>
+      <stop offset="72%" stop-color="#30343b"/>
+      <stop offset="100%" stop-color="#14161a"/>
+    </linearGradient>
+    <radialGradient id="softLight" cx="54%" cy="44%" r="62%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.075"/>
+      <stop offset="54%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="arrowFront" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f5f5f5" stop-opacity="0.28"/>
+      <stop offset="46%" stop-color="#a3a3a3" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#404040" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="arrowSide" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-25%" width="145%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+    <clipPath id="bannerClip">
+      <rect width="1600" height="110" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#bannerClip)">
+    <rect width="1600" height="110" rx="14" fill="url(#bg)"/>
+    <rect width="1600" height="110" rx="14" fill="url(#softLight)"/>
+    <rect width="1600" height="110" rx="14" fill="#000000" opacity="0.14"/>
+
+    <g filter="url(#shadow)">
+      <path d="M-70 0 H34 L148 55 L34 110 H-70 L44 55 Z" fill="url(#arrowSide)" opacity="0.56"/>
+      <path d="M38 0 H142 L256 55 L142 110 H38 L152 55 Z" fill="url(#arrowFront)" opacity="0.68"/>
+      <path d="M146 0 H250 L364 55 L250 110 H146 L260 55 Z" fill="url(#arrowSide)" opacity="0.78"/>
+      <path d="M254 0 H358 L472 55 L358 110 H254 L368 55 Z" fill="url(#arrowFront)" opacity="0.86"/>
+    </g>
+
+    <g opacity="0.16">
+      <rect x="1188" y="22" width="156" height="12" rx="3" fill="#d4d4d4"/>
+      <rect x="1370" y="22" width="74" height="12" rx="3" fill="#8f8f8f"/>
+      <rect x="1470" y="22" width="42" height="12" rx="3" fill="#b8b8b8"/>
+      <rect x="1232" y="48" width="96" height="12" rx="3" fill="#8f8f8f"/>
+      <rect x="1352" y="48" width="188" height="12" rx="3" fill="#d4d4d4"/>
+      <rect x="1160" y="74" width="132" height="12" rx="3" fill="#b8b8b8"/>
+      <rect x="1320" y="74" width="58" height="12" rx="3" fill="#8f8f8f"/>
+      <rect x="1410" y="74" width="152" height="12" rx="3" fill="#d4d4d4"/>
+    </g>
+
+    <text x="800" y="66"
+          text-anchor="middle"
+          fill="#ffffff"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="34"
+          font-weight="700"
+          letter-spacing="1">
+      C/C++ • Embedded • Firmware • Go
+    </text>
+  </g>
+</svg>
